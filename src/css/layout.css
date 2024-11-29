@@ -20,11 +20,18 @@ header {
    padding-top: 25px;
 }
 
-.menu-bar ul {
+.menu-bar ul  {
     display: flex; 
     text-decoration: none;
     list-style: none;
     gap: 15px; 
+}
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+.menu-bar a.active {
+    color: #e74c3c;
 }
 
 .Bussiness, .Box {
